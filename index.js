@@ -80,6 +80,14 @@ app.post('/api/persons', (request, response) => {
     })
   }
 
+  const duplicate = persons.find(person => person.name === body.name)
+
+  if (duplicate) {
+    return response.status(400).json({ 
+      error: 'name must be unique' 
+    })
+  }
+
   const person = {
     name: body.name,
     number: body.number,
