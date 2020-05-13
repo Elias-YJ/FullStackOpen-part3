@@ -1,0 +1,27 @@
+{
+  "name": "phonebackend",
+  "version": "0.0.1",
+  "description": "ex3 in part3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elias-YJ/FullStackOpen-part3.git"
+  },
+  "author": "Elias Ylä-Jarkko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Elias-YJ/FullStackOpen-part3/issues"
+  },
+  "homepage": "https://github.com/Elias-YJ/FullStackOpen-part3#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
